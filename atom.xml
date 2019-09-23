@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sundaydream.github.io/</id>
     <title>Gridea</title>
-    <updated>2019-09-23T15:02:42.232Z</updated>
+    <updated>2019-09-23T15:09:34.875Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sundaydream.github.io/"/>
     <link rel="self" href="https://sundaydream.github.io//atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>追求源于热爱</subtitle>
     <logo>https://sundaydream.github.io//images/avatar.png</logo>
     <icon>https://sundaydream.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, Gridea</rights>
