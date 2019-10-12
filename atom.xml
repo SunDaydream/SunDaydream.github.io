@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sundaydream.github.io/</id>
     <title>SunDaydream</title>
-    <updated>2019-10-12T05:18:52.217Z</updated>
+    <updated>2019-10-12T05:44:35.926Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sundaydream.github.io/"/>
     <link rel="self" href="https://sundaydream.github.io//atom.xml"/>
@@ -11,6 +11,26 @@ Pursuit from Passion</subtitle>
     <logo>https://sundaydream.github.io//images/avatar.png</logo>
     <icon>https://sundaydream.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, SunDaydream</rights>
+    <entry>
+        <title type="html"><![CDATA[Git & Github]]></title>
+        <id>https://sundaydream.github.io//post/git-and-github</id>
+        <link href="https://sundaydream.github.io//post/git-and-github">
+        </link>
+        <updated>2019-10-12T05:26:48.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="git">Git</h2>
+<p><a href="https://gitforwindows.org/">Git官网</a></p>
+<p><a href="https://www.liaoxuefeng.com/wiki/896043488029600">Git教程--廖雪峰</a></p>
+<p><a href="https://segmentfault.com/a/1190000005713232">Git教程--SF</a></p>
+<h2 id="github">Github</h2>
+<p><a href="https://guides.github.com/">Github Guides</a></p>
+<p><a href="https://github.com/explore">Github Explore</a></p>
+<p><a href="https://lab.github.com/">GitHub Learning Lab</a></p>
+<p><a href="https://help.github.com/cn/articles/about-organizations">about organizations</a></p>
+<p><a href="https://www.youtube.com/githubguides">YouTube Github Guides</a></p>
+<p><a href="https://choosealicense.com/">Choose an open source license</a></p>
+<p><a href="https://www.zhihu.com/question/21669554/answer/364168347">Github--知乎</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Typora--「A truly minimal markdown editor」]]></title>
         <id>https://sundaydream.github.io//post/typora</id>
