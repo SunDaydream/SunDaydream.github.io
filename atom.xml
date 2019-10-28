@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sundaydream.github.io/</id>
     <title>SunDaydream</title>
-    <updated>2019-10-28T11:11:40.402Z</updated>
+    <updated>2019-10-28T11:14:52.776Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sundaydream.github.io/"/>
     <link rel="self" href="https://sundaydream.github.io//atom.xml"/>
@@ -19,8 +19,8 @@ Pursuit from Passion</subtitle>
         <updated>2019-10-28T11:03:58.000Z</updated>
         <content type="html"><![CDATA[<p>1 m:总宽度,包括小数点<br>
 2 n:小数部分位数（四舍五入）<br>
-3 m&gt;n+1, 也可以小于, 但编译结果会按实际数据输出<br>
-4 如果m过大, 会在左边补空格</p>
+3 m&gt;n+1, 可以小于, 但编译结果会按实际数据输出<br>
+4 m过大时会在左边补空格</p>
 ]]></content>
     </entry>
     <entry>
