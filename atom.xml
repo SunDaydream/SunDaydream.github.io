@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sundaydream.github.io/</id>
     <title>SunDaydream</title>
-    <updated>2019-10-28T13:56:11.411Z</updated>
+    <updated>2019-10-28T15:42:23.770Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sundaydream.github.io/"/>
     <link rel="self" href="https://sundaydream.github.io//atom.xml"/>
@@ -24,6 +24,17 @@ B.while (ch = getchar() != 'N')printf(&quot;%c&quot;, ch);<br>
 C.while (ch = getchar() == 'N')printf(&quot;%c&quot;, ch);<br>
 D.while ((ch = getchar()) == 'N')printf(&quot;%c&quot;, ch);</p>
 <p>解析：因为<code>while</code>是以条件为假时结束循环，因此选项C、D不正确。<code>!=</code>的优先级比<code>=</code>高，因此<code>ch=getchar()!='N'</code>相当于<code>ch=(getchar!='N')</code>，<code>ch</code>并不能得到输入的字符，只能得到true或者false值。</p>
+<p>7-1 求整数的位数及各位数字之和<br>
+对于给定的正整数N，求它的位数及其各位数字之和。<br>
+输入格式：<br>
+输入在一行中给出一个不超过10^9的正整数N。<br>
+输出格式：<br>
+在一行中输出N的位数及其各位数字之和，中间用一个空格隔开。<br>
+输入样例：<br>
+<code>321</code><br>
+输出样例：<br>
+<code>3 6</code><br>
+<code>#include&lt;stdio.h&gt; int main() { 	int N, i = 0,sum=0; 	scanf(&quot;%d&quot;, &amp;N); 	int temp = N; 	while (temp) 	{ 		sum += temp % 10; 		temp /= 10; 		i++; 	} 	printf(&quot;%d %d&quot;, i, sum); }</code></p>
 ]]></content>
     </entry>
     <entry>
