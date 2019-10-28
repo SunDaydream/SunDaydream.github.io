@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sundaydream.github.io/</id>
     <title>SunDaydream</title>
-    <updated>2019-10-28T15:46:53.495Z</updated>
+    <updated>2019-10-28T15:51:42.857Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sundaydream.github.io/"/>
     <link rel="self" href="https://sundaydream.github.io//atom.xml"/>
@@ -11,6 +11,15 @@ Pursuit from Passion</subtitle>
     <logo>https://sundaydream.github.io//images/avatar.png</logo>
     <icon>https://sundaydream.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, SunDaydream</rights>
+    <entry>
+        <title type="html"><![CDATA[C语言教程]]></title>
+        <id>https://sundaydream.github.io//post/c-yu-yan-jiao-cheng</id>
+        <link href="https://sundaydream.github.io//post/c-yu-yan-jiao-cheng">
+        </link>
+        <updated>2019-10-28T15:50:18.000Z</updated>
+        <content type="html"><![CDATA[<p><a href="https://www.runoob.com/cprogramming/c-tutorial.html">C语言教程-菜鸟教程</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[PTA 循环结构 ]]></title>
         <id>https://sundaydream.github.io//post/pta-xun-huan-jie-gou</id>
