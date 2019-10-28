@@ -5,7 +5,7 @@
 <title>SunDaydream</title>
 <meta name="description" content="追求源于热爱
 Pursuit from Passion" />
-<link rel="shortcut icon" href="https://sundaydream.github.io//favicon.ico?v=1572278069025">
+<link rel="shortcut icon" href="https://sundaydream.github.io//favicon.ico?v=1572278122595">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link href="https://cdn.remixicon.com/releases/v1.3.1/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
@@ -25,7 +25,7 @@ Pursuit from Passion" />
       <div class="flex lg:block p-4 lg:px-0 items-center fixed lg:static lg:block top-0 right-0 left-0 bg-white z-50">
         <i class="remixicon-menu-2-line lg:mt-4 text-2xl cursor-pointer animated fadeIn" onclick="openMenu()"></i>
         <a href="https://sundaydream.github.io/">
-          <img class="animated fadeInLeft avatar rounded-lg mx-4 lg:mt-32 lg:mx-0 mt-0 lg:w-24 lg:h-24 w-12 w-12" src="https://sundaydream.github.io//images/avatar.png?v=1572278069025" alt="">
+          <img class="animated fadeInLeft avatar rounded-lg mx-4 lg:mt-32 lg:mx-0 mt-0 lg:w-24 lg:h-24 w-12 w-12" src="https://sundaydream.github.io//images/avatar.png?v=1572278122595" alt="">
         </a>
         <h1 class="animated fadeInLeft lg:text-4xl font-extrabold lg:mt-8 mt-0 text-xl" style="animation-delay: 0.2s">SunDaydream</h1>
       </div>
@@ -38,7 +38,12 @@ Pursuit from Passion" />
             <ul class="markdownIt-TOC">
 <li>
 <ul>
-<li><a href="#sy08-%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84-02">SY08 循环结构 02</a></li>
+<li><a href="#sy08-%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84-02">SY08 循环结构 02</a>
+<ul>
+<li><a href="#2-7%E8%A6%81%E6%B1%82%E9%80%9A%E8%BF%87while%E5%BE%AA%E7%8E%AF%E4%B8%8D%E6%96%AD%E8%AF%BB%E5%85%A5%E5%AD%97%E7%AC%A6%E5%BD%93%E8%AF%BB%E5%85%A5%E5%AD%97%E6%AF%8Dn%E6%97%B6%E7%BB%93%E6%9D%9F%E5%BE%AA%E7%8E%AF-%E8%8B%A5%E5%8F%98%E9%87%8F%E5%B7%B2%E6%AD%A3%E7%A1%AE%E5%AE%9A%E4%B9%89%E4%B8%8B%E5%88%97%E7%A8%8B%E5%BA%8F%E6%AE%B5%E6%AD%A3%E7%A1%AE%E7%9A%84%E6%98%AFa">2-7要求通过while循环不断读入字符，当读入字母N时结束循环。若变量已正确定义，下列程序段正确的是(A)</a></li>
+<li><a href="#7-1-%E6%B1%82%E6%95%B4%E6%95%B0%E7%9A%84%E4%BD%8D%E6%95%B0%E5%8F%8A%E5%90%84%E4%BD%8D%E6%95%B0%E5%AD%97%E4%B9%8B%E5%92%8C">7-1 求整数的位数及各位数字之和</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -96,14 +101,14 @@ Pursuit from Passion" />
         
         <div class="post-content yue">
           <h2 id="sy08-循环结构-02">SY08 循环结构 02</h2>
-<p>2-7要求通过while循环不断读入字符，当读入字母N时结束循环。若变量已正确定义，下列程序段正确的是(A)<br>
-A.while ((ch = getchar()) != 'N')printf(&quot;%c&quot;, ch);<br>
+<h3 id="2-7要求通过while循环不断读入字符当读入字母n时结束循环-若变量已正确定义下列程序段正确的是a">2-7要求通过while循环不断读入字符，当读入字母N时结束循环。若变量已正确定义，下列程序段正确的是(A)</h3>
+<p>A.while ((ch = getchar()) != 'N')printf(&quot;%c&quot;, ch);<br>
 B.while (ch = getchar() != 'N')printf(&quot;%c&quot;, ch);<br>
 C.while (ch = getchar() == 'N')printf(&quot;%c&quot;, ch);<br>
 D.while ((ch = getchar()) == 'N')printf(&quot;%c&quot;, ch);</p>
 <p>解析：因为<code>while</code>是以条件为假时结束循环，因此选项C、D不正确。<code>!=</code>的优先级比<code>=</code>高，因此<code>ch=getchar()!='N'</code>相当于<code>ch=(getchar!='N')</code>，<code>ch</code>并不能得到输入的字符，只能得到true或者false值。</p>
-<p>7-1 求整数的位数及各位数字之和<br>
-对于给定的正整数N，求它的位数及其各位数字之和。<br>
+<h3 id="7-1-求整数的位数及各位数字之和">7-1 求整数的位数及各位数字之和</h3>
+<p>对于给定的正整数N，求它的位数及其各位数字之和。<br>
 输入格式：<br>
 输入在一行中给出一个不超过10^9的正整数N。<br>
 输出格式：<br>
