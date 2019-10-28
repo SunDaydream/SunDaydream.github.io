@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sundaydream.github.io/</id>
     <title>SunDaydream</title>
-    <updated>2019-10-28T11:14:52.776Z</updated>
+    <updated>2019-10-28T13:43:40.502Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sundaydream.github.io/"/>
     <link rel="self" href="https://sundaydream.github.io//atom.xml"/>
@@ -11,6 +11,21 @@ Pursuit from Passion</subtitle>
     <logo>https://sundaydream.github.io//images/avatar.png</logo>
     <icon>https://sundaydream.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, SunDaydream</rights>
+    <entry>
+        <title type="html"><![CDATA[PTA 循环结构 ]]></title>
+        <id>https://sundaydream.github.io//post/pta-xun-huan-jie-gou</id>
+        <link href="https://sundaydream.github.io//post/pta-xun-huan-jie-gou">
+        </link>
+        <updated>2019-10-28T13:36:18.000Z</updated>
+        <content type="html"><![CDATA[<p>#SY08 循环结构 02<br>
+2-7要求通过while循环不断读入字符，当读入字母N时结束循环。若变量已正确定义，下列程序段正确的是(A)<br>
+A.while ((ch = getchar()) != 'N')printf(&quot;%c&quot;, ch);<br>
+B.while (ch = getchar() != 'N')printf(&quot;%c&quot;, ch);<br>
+C.while (ch = getchar() == 'N')printf(&quot;%c&quot;, ch);<br>
+D.while ((ch = getchar()) == 'N')printf(&quot;%c&quot;, ch);</p>
+<p>解析：因为while是以条件为假时结束循环，因此选项C、D不正确。“!=”的优先级比“=”高，因此“ch=getchar()!='N'”相当于“ch=(getchar!='N')”，ch并不能得到输入的字符，只能得到true或者false值。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA["%m.nf"用法简介]]></title>
         <id>https://sundaydream.github.io//post/m.nf</id>
