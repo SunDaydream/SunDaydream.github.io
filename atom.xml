@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sundaydream.github.io/</id>
     <title>SunDaydream</title>
-    <updated>2019-10-28T15:42:35.009Z</updated>
+    <updated>2019-10-28T15:44:06.238Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sundaydream.github.io/"/>
     <link rel="self" href="https://sundaydream.github.io//atom.xml"/>
@@ -34,7 +34,8 @@ D.while ((ch = getchar()) == 'N')printf(&quot;%c&quot;, ch);</p>
 <code>321</code><br>
 输出样例：<br>
 <code>3 6</code><br>
-<code>#include&lt;stdio.h&gt; int main() { 	int N, i = 0,sum=0; 	scanf(&quot;%d&quot;, &amp;N); 	int temp = N; 	while (temp) 	{ 		sum += temp % 10; 		temp /= 10; 		i++; 	} 	printf(&quot;%d %d&quot;, i, sum); }</code></p>
+<code>#include&lt;stdio.h&gt; int main() { 	int N, i = 0,sum=0; 	scanf(&quot;%d&quot;, &amp;N); 	int temp = N; 	while (temp) 	{ 		sum += temp % 10; 		temp /= 10; 		i++; 	} 	printf(&quot;%d %d&quot;, i, sum); }</code><br>
+<a href="https://blog.csdn.net/centralunit/article/details/81195834">参考资料CSDN</a></p>
 ]]></content>
     </entry>
     <entry>
