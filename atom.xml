@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sundaydream.github.io/</id>
     <title>SunDaydream</title>
-    <updated>2019-10-28T15:45:56.907Z</updated>
+    <updated>2019-10-28T15:46:52.290Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sundaydream.github.io/"/>
     <link rel="self" href="https://sundaydream.github.io//atom.xml"/>
@@ -17,8 +17,8 @@ Pursuit from Passion</subtitle>
         <link href="https://sundaydream.github.io//post/pta-xun-huan-jie-gou">
         </link>
         <updated>2019-10-28T13:36:18.000Z</updated>
-        <content type="html"><![CDATA[<p>##SY08 循环结构 02<br>
-2-7要求通过while循环不断读入字符，当读入字母N时结束循环。若变量已正确定义，下列程序段正确的是(A)<br>
+        <content type="html"><![CDATA[<h2 id="sy08-循环结构-02">SY08 循环结构 02</h2>
+<p>2-7要求通过while循环不断读入字符，当读入字母N时结束循环。若变量已正确定义，下列程序段正确的是(A)<br>
 A.while ((ch = getchar()) != 'N')printf(&quot;%c&quot;, ch);<br>
 B.while (ch = getchar() != 'N')printf(&quot;%c&quot;, ch);<br>
 C.while (ch = getchar() == 'N')printf(&quot;%c&quot;, ch);<br>
