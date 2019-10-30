@@ -5,7 +5,7 @@
 <title>SunDaydream</title>
 <meta name="description" content="追求源于热爱
 Pursuit from Passion" />
-<link rel="shortcut icon" href="https://sundaydream.github.io//favicon.ico?v=1572450001864">
+<link rel="shortcut icon" href="https://sundaydream.github.io//favicon.ico?v=1572450780700">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link href="https://cdn.remixicon.com/releases/v1.3.1/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
@@ -25,7 +25,7 @@ Pursuit from Passion" />
       <div class="flex lg:block p-4 lg:px-0 items-center fixed lg:static lg:block top-0 right-0 left-0 bg-white z-50">
         <i class="remixicon-menu-2-line lg:mt-4 text-2xl cursor-pointer animated fadeIn" onclick="openMenu()"></i>
         <a href="https://sundaydream.github.io/">
-          <img class="animated fadeInLeft avatar rounded-lg mx-4 lg:mt-32 lg:mx-0 mt-0 lg:w-24 lg:h-24 w-12 w-12" src="https://sundaydream.github.io//images/avatar.png?v=1572450001864" alt="">
+          <img class="animated fadeInLeft avatar rounded-lg mx-4 lg:mt-32 lg:mx-0 mt-0 lg:w-24 lg:h-24 w-12 w-12" src="https://sundaydream.github.io//images/avatar.png?v=1572450780700" alt="">
         </a>
         <h1 class="animated fadeInLeft lg:text-4xl font-extrabold lg:mt-8 mt-0 text-xl" style="animation-delay: 0.2s">SunDaydream</h1>
       </div>
@@ -44,6 +44,7 @@ Pursuit from Passion" />
 <li><a href="#7-1-%E6%B1%82%E6%95%B4%E6%95%B0%E7%9A%84%E4%BD%8D%E6%95%B0%E5%8F%8A%E5%90%84%E4%BD%8D%E6%95%B0%E5%AD%97%E4%B9%8B%E5%92%8C">7-1 求整数的位数及各位数字之和</a></li>
 </ul>
 </li>
+<li><a href="#7-5-%E6%9C%80%E5%A4%A7%E5%85%AC%E7%BA%A6%E6%95%B0%E5%92%8C%E6%9C%80%E5%B0%8F%E5%85%AC%E5%80%8D%E6%95%B0">7-5 最大公约数和最小公倍数</a></li>
 </ul>
 </li>
 </ul>
@@ -94,7 +95,7 @@ Pursuit from Passion" />
       <div class="content-wrapper py-32 lg:p-8 lg:w-3/4 post-detail animated fadeIn">
         <h1 class="text-3xl font-bold lg:mt-16">PTA 循环结构 </h1>
         <div class="text-sm text-gray-700 lg:my-8">
-          2019-10-28 / 2 min read
+          2019-10-28 / 3 min read
         </div>
         
         <div class="post-content yue">
@@ -107,15 +108,17 @@ D.while ((ch = getchar()) == 'N')printf(&quot;%c&quot;, ch);</p>
 <p>解析：因为<code>while</code>是以条件为假时结束循环，因此选项C、D不正确。<code>!=</code>的优先级比<code>=</code>高，因此<code>ch=getchar()!='N'</code>相当于<code>ch=(getchar!='N')</code>，<code>ch</code>并不能得到输入的字符，只能得到true或者false值。</p>
 <h3 id="7-1-求整数的位数及各位数字之和">7-1 求整数的位数及各位数字之和</h3>
 <p>对于给定的正整数N，求它的位数及其各位数字之和。<br>
-输入格式：<br>
+<strong>输入格式：</strong><br>
 输入在一行中给出一个不超过10^9的正整数N。<br>
-输出格式：<br>
+<strong>输出格式：</strong><br>
 在一行中输出N的位数及其各位数字之和，中间用一个空格隔开。<br>
-输入样例：<br>
+<strong>输入样例：</strong><br>
 <code>321</code><br>
-输出样例：<br>
-<code>3 6</code></p>
-<pre><code class="language-#include&lt;stdio.h&gt;">int main()
+<strong>输出样例：</strong><br>
+<code>3 6</code><br>
+<strong>答案：</strong></p>
+<pre><code class="language-c">#include&lt;stdio.h&gt;
+int main()
 {
 	int N, i = 0,sum=0;
 	scanf(&quot;%d&quot;, &amp;N);
@@ -130,6 +133,36 @@ D.while ((ch = getchar()) == 'N')printf(&quot;%c&quot;, ch);</p>
 }
 </code></pre>
 <p><a href="https://blog.csdn.net/centralunit/article/details/81195834">参考资料CSDN</a></p>
+<h2 id="7-5-最大公约数和最小公倍数">7-5 最大公约数和最小公倍数</h2>
+<p>本题要求两个给定正整数的最大公约数和最小公倍数。<br>
+<strong>输入格式:</strong><br>
+输入在一行中给出两个正整数M和N（≤1000）。<br>
+<strong>输出格式:</strong><br>
+在一行中顺序输出M和N的最大公约数和最小公倍数，两数字间以1空格分隔。<br>
+<strong>输入样例:</strong><br>
+511 292<br>
+<strong>输出样例:</strong><br>
+73 2044<br>
+<strong>答案：</strong><br>
+<em>示例一</em></p>
+<pre><code class="language-c">#include&lt;stdio.h&gt;
+int main()
+{
+	int M,N,temp,flag;
+	scanf(&quot;%d%d&quot;,&amp;M,&amp;N);
+	if(M&gt;N)
+		{
+			temp=M;
+			M=N;
+			N=temp;
+		}//M&lt;N
+	for(int i=1;i&lt;=M;i++)
+	{
+		if(M%i==0&amp;&amp;N%i==0)
+			flag=i;//flag是最大公约数 
+	}```
+*示例二*
+</code></pre>
 
         </div>
 
