@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sundaydream.github.io/</id>
     <title>SunDaydream</title>
-    <updated>2019-10-30T15:54:05.397Z</updated>
+    <updated>2019-10-30T16:11:45.911Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sundaydream.github.io/"/>
     <link rel="self" href="https://sundaydream.github.io//atom.xml"/>
@@ -129,9 +129,10 @@ int main()
 		if(M%i==0&amp;&amp;N%i==0)
 			flag=i;//flag是最大公约数 
 	}
-    ```
-*示例二*
+}
 </code></pre>
+<p><em>示例二</em><br>
+待补充</p>
 ]]></content>
     </entry>
     <entry>
