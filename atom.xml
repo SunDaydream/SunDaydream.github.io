@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sundaydream.github.io/</id>
     <title>SunDaydream</title>
-    <updated>2019-10-31T09:35:34.292Z</updated>
+    <updated>2019-10-31T10:31:08.005Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sundaydream.github.io/"/>
     <link rel="self" href="https://sundaydream.github.io//atom.xml"/>
@@ -11,6 +11,17 @@ Pursuit from Passion</subtitle>
     <logo>https://sundaydream.github.io//images/avatar.png</logo>
     <icon>https://sundaydream.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, SunDaydream</rights>
+    <entry>
+        <title type="html"><![CDATA[优秀个人主页收藏]]></title>
+        <id>https://sundaydream.github.io//post/you-xiu-ge-ren-zhu-ye-shou-cang</id>
+        <link href="https://sundaydream.github.io//post/you-xiu-ge-ren-zhu-ye-shou-cang">
+        </link>
+        <updated>2019-10-31T10:09:46.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="技术类">技术类</h2>
+<p><a href="https://qinlili.bid/">琴梨梨</a></p>
+<p>待补充...</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Github优秀项目收藏]]></title>
         <id>https://sundaydream.github.io//post/github-you-xiu-xiang-mu-shou-cang</id>
@@ -203,22 +214,6 @@ int main()
 <p><a href="https://www.youtube.com/githubguides">YouTube Github Guides</a></p>
 <p><a href="https://choosealicense.com/">Choose an open source license</a></p>
 <p><a href="https://www.zhihu.com/question/21669554/answer/364168347">Github--知乎</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Typora--「A truly minimal markdown editor」]]></title>
-        <id>https://sundaydream.github.io//post/typora</id>
-        <link href="https://sundaydream.github.io//post/typora">
-        </link>
-        <updated>2019-10-12T05:04:21.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p>一款支持<strong>实时预览</strong>的Markdown文本编辑器</p>
-</blockquote>
-<p><a href="https://www.typora.io/">官方网站</a></p>
-<p><a href="https://sspai.com/post/54912">Typora 完全使用详解</a></p>
-<p><a href="https://sspai.com/post/30292">让 Markdown 写作更简单，免费极简编辑器：Typora</a></p>
-<p><a href="http://support.typora.io/Strict-Mode/">Strict Mode严格模式</a></p>
-<p><a href="http://support.typora.io/">Typora Support</a></p>
 ]]></content>
     </entry>
 </feed>
