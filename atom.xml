@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sundaydream.github.io/</id>
     <title>SunDaydream</title>
-    <updated>2019-10-30T16:19:51.982Z</updated>
+    <updated>2019-10-31T05:34:06.485Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sundaydream.github.io/"/>
     <link rel="self" href="https://sundaydream.github.io//atom.xml"/>
@@ -11,6 +11,17 @@ Pursuit from Passion</subtitle>
     <logo>https://sundaydream.github.io//images/avatar.png</logo>
     <icon>https://sundaydream.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, SunDaydream</rights>
+    <entry>
+        <title type="html"><![CDATA[VirtualXposed&Taichi]]></title>
+        <id>https://sundaydream.github.io//post/virtualxposedandtaichi</id>
+        <link href="https://sundaydream.github.io//post/virtualxposedandtaichi">
+        </link>
+        <updated>2019-10-31T05:05:42.000Z</updated>
+        <content type="html"><![CDATA[<p><a href="https://taichi.cool/README_CN.html">Tachi官网1</a></p>
+<p><a href="https://www.taichi-app.com/">Tachi官网2</a></p>
+<p><a href="https://mp.weixin.qq.com/s/oQnJpXBOcaAlNWCwVTYz5g">模块下载</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[PTA 浙大版《C语言程序设计（第3版）》题目集]]></title>
         <id>https://sundaydream.github.io//post/pta-zhe-da-ban-lesslessc-yu-yan-cheng-xu-she-ji-di-3-ban-greatergreater-ti-mu-ji</id>
