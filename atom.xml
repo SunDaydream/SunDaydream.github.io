@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sundaydream.github.io/</id>
     <title>SunDaydream</title>
-    <updated>2019-11-03T14:43:54.657Z</updated>
+    <updated>2019-11-03T14:57:09.717Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sundaydream.github.io/"/>
     <link rel="self" href="https://sundaydream.github.io//atom.xml"/>
@@ -11,6 +11,36 @@ Pursuit from Passion</subtitle>
     <logo>https://sundaydream.github.io//images/avatar.png</logo>
     <icon>https://sundaydream.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, SunDaydream</rights>
+    <entry>
+        <title type="html"><![CDATA[优秀书籍]]></title>
+        <id>https://sundaydream.github.io//post/you-xiu-shu-ji</id>
+        <link href="https://sundaydream.github.io//post/you-xiu-shu-ji">
+        </link>
+        <updated>2019-11-03T14:50:07.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="计算机与编程相关">计算机与编程相关</h2>
+<h3 id="c语言">C语言</h3>
+<h4 id="c-primer-plus">C Primer Plus</h4>
+<p>待补充</p>
+<h4 id="c-标准库">C 标准库</h4>
+<p>。。。</p>
+<h3 id="综合">综合</h3>
+<h4 id="计算机科学导论">计算机科学导论</h4>
+<p>。。。</p>
+<h4 id="编程珠玑">编程珠玑</h4>
+<p>。。。</p>
+<h3 id="其他语言待补充">其他语言待补充</h3>
+<h2 id="数学相关">数学相关</h2>
+<h3 id="微积分">微积分</h3>
+<h4 id="托马斯微积分">托马斯微积分</h4>
+<p>。。。</p>
+<h4 id="数学之美">数学之美</h4>
+<p>。。。</p>
+<h3 id="线性代数">线性代数</h3>
+<h3 id="概率论与数理统计">概率论与数理统计</h3>
+<h2 id="英语相关">英语相关</h2>
+<p>。。。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[VMware Workstation Pro]]></title>
         <id>https://sundaydream.github.io//post/vmware-workstation-pro</id>
@@ -251,15 +281,6 @@ P.S.终于有迅雷套件了，不过好像认SN，黑裙上会有奇怪的bug</
         </link>
         <updated>2019-10-31T09:23:42.000Z</updated>
         <content type="html"><![CDATA[<p>暂未整理</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Github有趣项目收藏]]></title>
-        <id>https://sundaydream.github.io//post/github-you-qu-xiang-mu-shou-cang</id>
-        <link href="https://sundaydream.github.io//post/github-you-qu-xiang-mu-shou-cang">
-        </link>
-        <updated>2019-10-31T06:32:56.000Z</updated>
-        <content type="html"><![CDATA[<h3 id="bullshitgenerator"><a href="https://github.com/menzi11/BullshitGenerator">BullshitGenerator</a></h3>
 ]]></content>
     </entry>
 </feed>
