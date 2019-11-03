@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sundaydream.github.io/</id>
     <title>SunDaydream</title>
-    <updated>2019-11-03T14:10:43.206Z</updated>
+    <updated>2019-11-03T14:12:52.572Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sundaydream.github.io/"/>
     <link rel="self" href="https://sundaydream.github.io//atom.xml"/>
@@ -11,6 +11,24 @@ Pursuit from Passion</subtitle>
     <logo>https://sundaydream.github.io//images/avatar.png</logo>
     <icon>https://sundaydream.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, SunDaydream</rights>
+    <entry>
+        <title type="html"><![CDATA[VMware Workstation Pro]]></title>
+        <id>https://sundaydream.github.io//post/vmware-workstation-pro</id>
+        <link href="https://sundaydream.github.io//post/vmware-workstation-pro">
+        </link>
+        <updated>2019-11-03T14:11:51.000Z</updated>
+        <content type="html"><![CDATA[<p>待补充...</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[中星6号 C波]]></title>
+        <id>https://sundaydream.github.io//post/zhong-xing-6-hao-c-bo</id>
+        <link href="https://sundaydream.github.io//post/zhong-xing-6-hao-c-bo">
+        </link>
+        <updated>2019-11-03T14:11:08.000Z</updated>
+        <content type="html"><![CDATA[<p>。。。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[中星9号 Ku波]]></title>
         <id>https://sundaydream.github.io//post/zhong-xing-9-hao-ku-bo</id>
@@ -239,60 +257,6 @@ Pursuit from Passion</subtitle>
         </link>
         <updated>2019-10-31T06:32:56.000Z</updated>
         <content type="html"><![CDATA[<h3 id="bullshitgenerator"><a href="https://github.com/menzi11/BullshitGenerator">BullshitGenerator</a></h3>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Xposed&VirtualXposed&Taichi]]></title>
-        <id>https://sundaydream.github.io//post/virtualxposedandtaichi</id>
-        <link href="https://sundaydream.github.io//post/virtualxposedandtaichi">
-        </link>
-        <updated>2019-10-31T05:05:42.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="taichi">Taichi</h2>
-<p><a href="https://taichi.cool/README_CN.html">Taichi官网1</a></p>
-<p><a href="https://www.taichi-app.com/">Taichi官网2</a></p>
-<h2 id="通用模块">通用模块</h2>
-<p><a href="https://mp.weixin.qq.com/s/oQnJpXBOcaAlNWCwVTYz5g">模块下载</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PTA 浙大版《C语言程序设计（第3版）》题目集]]></title>
-        <id>https://sundaydream.github.io//post/pta-zhe-da-ban-lesslessc-yu-yan-cheng-xu-she-ji-di-3-ban-greatergreater-ti-mu-ji</id>
-        <link href="https://sundaydream.github.io//post/pta-zhe-da-ban-lesslessc-yu-yan-cheng-xu-she-ji-di-3-ban-greatergreater-ti-mu-ji">
-        </link>
-        <updated>2019-10-30T15:26:25.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="练习3-4-统计字符">练习3-4 统计字符</h2>
-<p>本题要求编写程序，输入10个字符，统计其中英文字母、空格或回车、数字字符和其他字符的个数。<br>
-<strong>输入格式:</strong><br>
-输入为10个字符。最后一个回车表示输入结束，不算在内。<br>
-<strong>输出格式:</strong><br>
-在一行内按照<br>
-<code>letter = 英文字母个数, blank = 空格或回车个数, digit = 数字字符个数, other = 其他字符个数的格式输出。</code><br>
-<strong>输入样例:</strong><br>
-<code>aZ &amp;</code><br>
-<code>09 Az</code><br>
-<strong>输出样例:</strong><br>
-<code>letter = 4, blank = 3, digit = 2, other = 1</code><br>
-<strong>答案：</strong></p>
-<pre><code class="language-c">#include &lt;stdio.h&gt;
-int main()
-{
-	int letter=0,blank=0,digit=0,other=0;
-	char x;
-	for(int i=1;i&lt;=10;i++)
-	{
-		scanf(&quot;%c&quot;,&amp;x);
-		if(x&gt;='A'&amp;&amp;x&lt;='Z'||x&gt;='a'&amp;&amp;x&lt;='z')
-			letter++;
-		else if(x==' '||x=='\n')
-			blank++;
-		else if(x&gt;='0'&amp;&amp;x&lt;='9')//别忘''!!!
-			digit++;
-		else
-			other++;
-	}
-	printf(&quot;letter = %d, blank = %d, digit = %d, other = %d&quot;,letter,blank,digit,other);
-}
-</code></pre>
 ]]></content>
     </entry>
 </feed>
