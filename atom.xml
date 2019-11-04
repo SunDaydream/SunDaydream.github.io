@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sundaydream.github.io/</id>
     <title>SunDaydream</title>
-    <updated>2019-11-03T15:06:13.285Z</updated>
+    <updated>2019-11-04T08:06:27.111Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sundaydream.github.io/"/>
     <link rel="self" href="https://sundaydream.github.io//atom.xml"/>
@@ -11,6 +11,23 @@ Pursuit from Passion</subtitle>
     <logo>https://sundaydream.github.io//images/avatar.png</logo>
     <icon>https://sundaydream.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, SunDaydream</rights>
+    <entry>
+        <title type="html"><![CDATA[C语言浮点数精度与四舍五入]]></title>
+        <id>https://sundaydream.github.io//post/c-jingduyusishewuru</id>
+        <link href="https://sundaydream.github.io//post/c-jingduyusishewuru">
+        </link>
+        <updated>2019-11-04T05:07:42.000Z</updated>
+        <content type="html"><![CDATA[<p>通过+-0.5实现四舍五入?<br>
+还没研究清，待补充...<br>
+<a href="https://blog.csdn.net/hpf247/article/details/54090269">C语言小数四舍五入输出可控制位数</a><br>
+<a href="https://mrs.pub/clang/2416.html">float浮点数会自动四舍五入吗 大部分人都想错了(此文有误，看评论区)</a><br>
+<a href="https://bbs.csdn.net/topics/70084538">C语言如何实现浮点数的四舍五入？</a><br>
+<a href="https://blog.csdn.net/xie0812/article/details/38433893">C语言一个语句完成浮点数四舍五入</a><br>
+<a href="https://www.zhihu.com/question/28044138">c语言如何实现四舍五入?</a><br>
+<a href="https://en.cppreference.com/w/c/numeric/math/round">round, roundf, roundl, lround, lroundf, lroundl, llround, llroundf, llroundl</a><br>
+<a href="https://www.hustyx.com/cpp/22/">C语言纠结的四舍五入问题</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[优秀书籍]]></title>
         <id>https://sundaydream.github.io//post/you-xiu-shu-ji</id>
@@ -273,15 +290,6 @@ P.S.终于有迅雷套件了，不过好像认SN，黑裙上会有奇怪的bug</
         <content type="html"><![CDATA[<h2 id="技术类">技术类</h2>
 <p><a href="https://qinlili.bid/">琴梨梨</a></p>
 <p>待补充...</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Github优秀项目收藏]]></title>
-        <id>https://sundaydream.github.io//post/github-you-xiu-xiang-mu-shou-cang</id>
-        <link href="https://sundaydream.github.io//post/github-you-xiu-xiang-mu-shou-cang">
-        </link>
-        <updated>2019-10-31T09:23:42.000Z</updated>
-        <content type="html"><![CDATA[<p>暂未整理</p>
 ]]></content>
     </entry>
 </feed>
