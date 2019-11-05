@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sundaydream.github.io/</id>
     <title>SunDaydream</title>
-    <updated>2019-11-04T14:04:53.114Z</updated>
+    <updated>2019-11-05T16:33:49.913Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sundaydream.github.io/"/>
     <link rel="self" href="https://sundaydream.github.io//atom.xml"/>
@@ -11,6 +11,16 @@ Pursuit from Passion</subtitle>
     <logo>https://sundaydream.github.io//images/avatar.png</logo>
     <icon>https://sundaydream.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, SunDaydream</rights>
+    <entry>
+        <title type="html"><![CDATA[开源协议对比]]></title>
+        <id>https://sundaydream.github.io//post/kai-yuan-xie-yi-dui-bi</id>
+        <link href="https://sundaydream.github.io//post/kai-yuan-xie-yi-dui-bi">
+        </link>
+        <updated>2019-11-05T16:31:26.000Z</updated>
+        <content type="html"><![CDATA[<p><a href="https://zhuanlan.zhihu.com/p/31881162">一张图看懂开源许可协议，开源许可证GPL、BSD、MIT、Mozilla、Apache和LGPL的区别</a><br>
+<a href="https://zhuanlan.zhihu.com/p/56759711">Github协议详解</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[C语言浮点数精度与四舍五入]]></title>
         <id>https://sundaydream.github.io//post/c-jingduyusishewuru</id>
@@ -279,17 +289,6 @@ P.S.终于有迅雷套件了，不过好像认SN，黑裙上会有奇怪的bug</
 </ol>
 <p>Plagiarism is the sincerest form of flattery. 抄袭是最真诚的恭维。——《编程珠玑2》第六章</p>
 <p><a href="https://www.zhihu.com/question/19710524/answer/869890461">内容参考来自知乎</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[优秀个人主页收藏]]></title>
-        <id>https://sundaydream.github.io//post/you-xiu-ge-ren-zhu-ye-shou-cang</id>
-        <link href="https://sundaydream.github.io//post/you-xiu-ge-ren-zhu-ye-shou-cang">
-        </link>
-        <updated>2019-10-31T10:09:46.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="技术类">技术类</h2>
-<p><a href="https://qinlili.bid/">琴梨梨</a></p>
-<p>待补充...</p>
 ]]></content>
     </entry>
 </feed>
