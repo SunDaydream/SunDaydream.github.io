@@ -35,15 +35,7 @@ Pursuit from Passion" />
             文章目录
           </p>
           <div class="toc-container hidden lg:block">
-            <ul class="markdownIt-TOC">
-<li>
-<ul>
-<li><a href="#%E7%BB%83%E4%B9%A03-4-%E7%BB%9F%E8%AE%A1%E5%AD%97%E7%AC%A6">练习3-4 统计字符</a></li>
-<li><a href="#%E4%B9%A0%E9%A2%983-2-%E9%AB%98%E9%80%9F%E5%85%AC%E8%B7%AF%E8%B6%85%E9%80%9F%E5%A4%84%E7%BD%9A">习题3-2 高速公路超速处罚</a></li>
-</ul>
-</li>
-</ul>
-
+            
           </div>
         </div>
       
@@ -88,124 +80,47 @@ Pursuit from Passion" />
 <div class="mask" onclick="closeMenu()">
 </div>
       <div class="content-wrapper py-32 lg:p-8 lg:w-3/4 post-detail animated fadeIn">
-        <h1 class="text-3xl font-bold lg:mt-16">PTA 浙大版《C语言程序设计（第3版）》题目集</h1>
+        <h1 class="text-3xl font-bold lg:mt-16">KODI</h1>
         <div class="text-sm text-gray-700 lg:my-8">
-          2019-10-30 / 3 min read
+          2019-11-07 / 1 min read
         </div>
         
         <div class="post-content yue">
-          <h2 id="练习3-4-统计字符">练习3-4 统计字符</h2>
-<p>本题要求编写程序，输入10个字符，统计其中英文字母、空格或回车、数字字符和其他字符的个数。<br>
-<strong>输入格式:</strong><br>
-输入为10个字符。最后一个回车表示输入结束，不算在内。<br>
-<strong>输出格式:</strong><br>
-在一行内按照<br>
-<code>letter = 英文字母个数, blank = 空格或回车个数, digit = 数字字符个数, other = 其他字符个数的格式输出。</code><br>
-<strong>输入样例:</strong><br>
-<code>aZ &amp;</code><br>
-<code>09 Az</code><br>
-<strong>输出样例:</strong><br>
-<code>letter = 4, blank = 3, digit = 2, other = 1</code><br>
-<strong>答案：</strong></p>
-<pre><code class="language-c">#include &lt;stdio.h&gt;
-int main()
-{
-	int letter=0,blank=0,digit=0,other=0;
-	char x;
-	for(int i=1;i&lt;=10;i++)
-	{
-		scanf(&quot;%c&quot;,&amp;x);
-		if(x&gt;='A'&amp;&amp;x&lt;='Z'||x&gt;='a'&amp;&amp;x&lt;='z')
-			letter++;
-		else if(x==' '||x=='\n')
-			blank++;
-		else if(x&gt;='0'&amp;&amp;x&lt;='9')//别忘''!!!
-			digit++;
-		else
-			other++;
-	}
-	printf(&quot;letter = %d, blank = %d, digit = %d, other = %d&quot;,letter,blank,digit,other);
-}
-</code></pre>
-<h2 id="习题3-2-高速公路超速处罚">习题3-2 高速公路超速处罚</h2>
-<p>按照规定，在高速公路上行使的机动车，达到或超出本车道限速的10%则处200元罚款；若达到或超出50%，就要吊销驾驶证。请编写程序根据车速和限速自动判别对该机动车的处理。<br>
-<strong>输入格式:</strong><br>
-输入在一行中给出2个正整数，分别对应车速和限速，其间以空格分隔。<br>
-<strong>输出格式:</strong><br>
-在一行中输出处理意见：若属于正常行驶，则输出“OK”；若应处罚款，则输出“Exceed x%. Ticket 200”；若应吊销驾驶证，则输出“Exceed x%. License Revoked”。其中x是超速的百分比，精确到整数。<br>
-<strong>输入样例1:</strong><br>
-<code>65 60</code><br>
-<strong>输出样例1:</strong><br>
-<code>OK</code><br>
-<strong>输入样例2:</strong><br>
-<code>110 100</code><br>
-<strong>输出样例2:</strong><br>
-<code>Exceed 10%. Ticket 200</code><br>
-<strong>输入样例3:</strong><br>
-<code>200 120</code><br>
-<strong>输出样例3:</strong><br>
-<code>Exceed 67%. License Revoked</code><br>
-<strong>答案：</strong></p>
-<pre><code class="language-c">/*
-#include&lt;stdio.h&gt;
-int main()
-{
-	int a, b;//车速，限速
-	scanf(&quot;%d%d&quot;, &amp;a, &amp;b);
-	if (a &gt;= (1.1 * b) &amp;&amp; a &lt; (1.5 * b))            //double在1.1处有精度问题？不要直接用
-		printf(&quot;Exceed %d%%. Ticket 200&quot;, (a-b)*100 / b);
-	else if (a&gt;= (1.5 * b))
-		printf(&quot;Exceed %d%%. License Revoked&quot;, (a-b)*100 / b);
-	else
-		printf(&quot;OK&quot;);
-}
-*/
-#include&lt;stdio.h&gt;
-int main()
-{
-	int a, b,c;//车速，限速
-	scanf(&quot;%d%d&quot;, &amp;a, &amp;b);
-	c=(int)((a-b)*100.0 / b+0.5);  //+0.5是四舍五入？
-	if (c&gt;=10 &amp;&amp;c &lt;50)
-		printf(&quot;Exceed %d%%. Ticket 200&quot;, c);
-	else if (c&gt;=50)
-		printf(&quot;Exceed %d%%. License Revoked&quot;,c );
-	else
-		printf(&quot;OK&quot;);
-}
-</code></pre>
-<p><a href="https://sundaydream.github.io/post/c-jingduyusishewuru/">关于浮点数精度与四舍五入详见此文</a></p>
+          <p>待补充</p>
 
         </div>
 
         
-          <a class="animated fadeInUp p-2 items-center text-sm text-gray-700 border hover:bg-gray-300 leading-none rounded-full flex lg:inline-flex m-4 " href="https://sundaydream.github.io//tag/PTA">
-            <span class="flex-auto">PTA</span>
+          <a class="animated fadeInUp p-2 items-center text-sm text-gray-700 border hover:bg-gray-300 leading-none rounded-full flex lg:inline-flex m-4 " href="https://sundaydream.github.io//tag/NAS">
+            <span class="flex-auto">NAS</span>
           </a>
         
-          <a class="animated fadeInUp p-2 items-center text-sm text-gray-700 border hover:bg-gray-300 leading-none rounded-full flex lg:inline-flex m-4 " href="https://sundaydream.github.io//tag/C">
-            <span class="flex-auto">C语言</span>
+          <a class="animated fadeInUp p-2 items-center text-sm text-gray-700 border hover:bg-gray-300 leading-none rounded-full flex lg:inline-flex m-4 " href="https://sundaydream.github.io//tag/original">
+            <span class="flex-auto">原创</span>
+          </a>
+        
+          <a class="animated fadeInUp p-2 items-center text-sm text-gray-700 border hover:bg-gray-300 leading-none rounded-full flex lg:inline-flex m-4 " href="https://sundaydream.github.io//tag/tools">
+            <span class="flex-auto">工具</span>
+          </a>
+        
+          <a class="animated fadeInUp p-2 items-center text-sm text-gray-700 border hover:bg-gray-300 leading-none rounded-full flex lg:inline-flex m-4 " href="https://sundaydream.github.io//tag/course">
+            <span class="flex-auto">教程</span>
+          </a>
+        
+          <a class="animated fadeInUp p-2 items-center text-sm text-gray-700 border hover:bg-gray-300 leading-none rounded-full flex lg:inline-flex m-4 " href="https://sundaydream.github.io//tag/collection">
+            <span class="flex-auto">收藏</span>
           </a>
         
 
 
         <div class="flex justify-between py-8">
           
-            <div class="prev-post">
-              <a href="https://sundaydream.github.io//post/virtualxposedandtaichi">
-                <h3 class="post-title">
-                  <i class="remixicon-arrow-left-line"></i>
-                  Xposed&amp;VirtualXposed&amp;Taichi
-                </h3>
-              </a>
-            </div>
-          
 
           
             <div class="next-post">
-              <a href="https://sundaydream.github.io//post/c-yu-yan-jiao-cheng">
+              <a href="https://sundaydream.github.io//post/kai-yuan-xie-yi-dui-bi">
                 <h3 class="post-title">
-                  C语言教程
+                  开源协议对比
                   <i class="remixicon-arrow-right-line"></i>
                 </h3>
               </a>
