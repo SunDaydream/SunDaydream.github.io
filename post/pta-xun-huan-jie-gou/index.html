@@ -5,7 +5,7 @@
 <title>SunDaydream</title>
 <meta name="description" content="追求源于热爱
 Pursuit from Passion" />
-<link rel="shortcut icon" href="https://sundaydream.github.io//favicon.ico?v=1573133721143">
+<link rel="shortcut icon" href="https://sundaydream.github.io//favicon.ico?v=1573659062725">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link href="https://cdn.remixicon.com/releases/v1.3.1/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
@@ -25,7 +25,7 @@ Pursuit from Passion" />
       <div class="flex lg:block p-4 lg:px-0 items-center fixed lg:static lg:block top-0 right-0 left-0 bg-white z-50">
         <i class="remixicon-menu-2-line lg:mt-4 text-2xl cursor-pointer animated fadeIn" onclick="openMenu()"></i>
         <a href="https://sundaydream.github.io/">
-          <img class="animated fadeInLeft avatar rounded-lg mx-4 lg:mt-32 lg:mx-0 mt-0 lg:w-24 lg:h-24 w-12 w-12" src="https://sundaydream.github.io//images/avatar.png?v=1573133721143" alt="">
+          <img class="animated fadeInLeft avatar rounded-lg mx-4 lg:mt-32 lg:mx-0 mt-0 lg:w-24 lg:h-24 w-12 w-12" src="https://sundaydream.github.io//images/avatar.png?v=1573659062725" alt="">
         </a>
         <h1 class="animated fadeInLeft lg:text-4xl font-extrabold lg:mt-8 mt-0 text-xl" style="animation-delay: 0.2s">SunDaydream</h1>
       </div>
@@ -48,6 +48,7 @@ Pursuit from Passion" />
 <li><a href="#sy09-%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%8403">SY09 循环结构03</a>
 <ul>
 <li><a href="#7-1-%E8%B7%9F%E5%A5%A5%E5%B7%B4%E9%A9%AC%E4%B8%80%E8%B5%B7%E7%94%BB%E6%96%B9%E5%9D%97">7-1 跟奥巴马一起画方块</a></li>
+<li><a href="#7-4-%E6%B0%B4%E4%BB%99%E8%8A%B1%E6%95%B0">7-4 水仙花数</a></li>
 </ul>
 </li>
 </ul>
@@ -100,7 +101,7 @@ Pursuit from Passion" />
       <div class="content-wrapper py-32 lg:p-8 lg:w-3/4 post-detail animated fadeIn">
         <h1 class="text-3xl font-bold lg:mt-16">PTA 循环结构 </h1>
         <div class="text-sm text-gray-700 lg:my-8">
-          2019-10-28 / 4 min read
+          2019-10-28 / 5 min read
         </div>
         
         <div class="post-content yue">
@@ -202,6 +203,56 @@ int main()
 		if (flag%(int)N==0)
 			printf(&quot;\n&quot;);
 	}
+}
+</code></pre>
+<h3 id="7-4-水仙花数">7-4 水仙花数</h3>
+<p>水仙花数是指一个N位正整数（N≥3），它的每个位上的数字的N次幂之和等于它本身。例如：153=1<sup>3+5</sup>3+3^3.本题要求编写程序,计算所有N位水仙花数。<br>
+<strong>输入格式:</strong><br>
+输入在一行中给出一个正整数N（3≤N≤7）。<br>
+<strong>输出格式:</strong><br>
+按递增顺序输出所有N位水仙花数，每个数字占一行。<br>
+<strong>输入样例:</strong><br>
+<code>3</code><br>
+<strong>输出样例:</strong><br>
+<code>153</code><br>
+<code>370</code><br>
+<code>371</code><br>
+<code>407</code><br>
+<strong>答案：</strong></p>
+<pre><code class="language-c">#include&lt;stdio.h&gt;
+int main()
+{
+	int N;
+	scanf(&quot;%d&quot;,&amp;N);
+	
+	int begin=1,end;
+	for(int i=1;i&lt;=N-1;i++)
+	{
+		begin*=10;
+	}
+	end=begin*10-1;
+	for(int i=begin;i&lt;=end;i++)
+	{
+        int sum=0,p=i;
+		//for(int j=1;j&lt;=N;j++)
+		//{
+            while(p)
+           {
+			    int a=p%10;
+			    int a1=1;
+			    for(int b=1;b&lt;=N;b++)
+			    {
+				    a1*=a;
+			    }
+			    sum+=a1;
+			    p=p/10;
+                //if(i==0)
+               // break;
+            }
+            	if(sum==i) 
+				printf(&quot;%d\n&quot;,sum);
+	}
+	
 }
 </code></pre>
 
