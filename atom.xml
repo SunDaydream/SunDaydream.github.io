@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sundaydream.github.io/</id>
     <title>SunDaydream</title>
-    <updated>2019-11-13T15:31:08.730Z</updated>
+    <updated>2019-11-17T13:35:38.812Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sundaydream.github.io/"/>
     <link rel="self" href="https://sundaydream.github.io//atom.xml"/>
@@ -11,6 +11,78 @@ Pursuit from Passion</subtitle>
     <logo>https://sundaydream.github.io//images/avatar.png</logo>
     <icon>https://sundaydream.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, SunDaydream</rights>
+    <entry>
+        <title type="html"><![CDATA[PTA Function]]></title>
+        <id>https://sundaydream.github.io//post/pta-function</id>
+        <link href="https://sundaydream.github.io//post/pta-function">
+        </link>
+        <updated>2019-11-17T13:19:56.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="sy11-function01">SY11 function01</h2>
+<h3 id="6-8-使用函数求素数和">6-8 使用函数求素数和</h3>
+<p>本题要求实现一个判断素数的简单函数、以及利用该函数计算给定区间内素数和的函数。<br>
+素数就是只能被1和自身整除的正整数。注意：1不是素数，2是素数。<br>
+<strong>函数接口定义：</strong><br>
+<code>int prime( int p );</code><br>
+<code>int PrimeSum( int m, int n );</code><br>
+其中函数<code>prime</code>当用户传入参数<code>p</code>为素数时返回<code>1</code>，否则返回<code>0</code>；函数<code>PrimeSum</code>返回区间[m, n]内所有素数的和。题目保证用户传入的参数m≤n。<br>
+<strong>裁判测试程序样例：</strong></p>
+<pre><code class="language-c">#include &lt;stdio.h&gt;
+#include &lt;math.h&gt;
+
+int prime( int p );
+int PrimeSum( int m, int n );
+
+int main()
+{
+    int m, n, p;
+
+    scanf(&quot;%d %d&quot;, &amp;m, &amp;n);
+    printf(&quot;Sum of ( &quot;);
+    for( p=m; p&lt;=n; p++ ) {
+        if( prime(p) != 0 )
+            printf(&quot;%d &quot;, p);
+    }
+    printf(&quot;) = %d\n&quot;, PrimeSum(m, n));
+
+    return 0;
+}
+
+/* 你的代码将被嵌在这里 */
+</code></pre>
+<p><strong>输入样例：</strong><br>
+<code>-1 10</code><br>
+<strong>输出样例：</strong><br>
+<code>Sum of ( 2 3 5 7 ) = 17</code><br>
+<strong>答案：</strong></p>
+<pre><code class="language-c">int prime(int p)
+{
+	int flag = 1;
+	for (int i =2; i &lt; p; i++)
+	{
+		if (p % i == 0)
+			flag++;
+	}
+	if (p &lt;= 1)
+		return 0;//易遗忘p&lt;=1
+	else if (flag == 1)
+		return 1;
+	else if(flag!=1)
+		return 0;
+}
+int PrimeSum(int m, int n)
+{
+	int sum = 0,k;
+	for (int i = m; i &lt;= n; i++)
+	{
+		k=prime(i);
+		if (k == 1)
+			sum += i;
+	}
+	return sum;
+}
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[KODI]]></title>
         <id>https://sundaydream.github.io//post/kodi</id>
@@ -137,16 +209,6 @@ Pursuit from Passion</subtitle>
 </blockquote>
 <p>待补充...<br>
 P.S.终于有迅雷套件了，不过好像认SN，黑裙上会有奇怪的bug</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[路由器固件推荐]]></title>
-        <id>https://sundaydream.github.io//post/lu-you-qi-gu-jian-tui-jian</id>
-        <link href="https://sundaydream.github.io//post/lu-you-qi-gu-jian-tui-jian">
-        </link>
-        <updated>2019-11-03T13:52:02.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="斐讯k2p">斐讯K2P</h2>
-<p>待补充</p>
 ]]></content>
     </entry>
 </feed>
