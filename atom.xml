@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sundaydream.github.io/</id>
     <title>SunDaydream</title>
-    <updated>2019-11-18T12:20:25.610Z</updated>
+    <updated>2019-11-18T14:50:22.067Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sundaydream.github.io/"/>
     <link rel="self" href="https://sundaydream.github.io//atom.xml"/>
@@ -11,6 +11,17 @@ Pursuit from Passion</subtitle>
     <logo>https://sundaydream.github.io//images/avatar.png</logo>
     <icon>https://sundaydream.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, SunDaydream</rights>
+    <entry>
+        <title type="html"><![CDATA[使用SpaceDesk实现屏幕拓展]]></title>
+        <id>https://sundaydream.github.io//post/shi-yong-spacedesk-shi-xian-ping-mu-tuo-zhan</id>
+        <link href="https://sundaydream.github.io//post/shi-yong-spacedesk-shi-xian-ping-mu-tuo-zhan">
+        </link>
+        <updated>2019-11-18T14:47:44.000Z</updated>
+        <content type="html"><![CDATA[<p><a href="https://spacedesk.net/">官网</a><br>
+<a href="https://spacedesk.net/user-manual">用户手册</a><br>
+分别在设备上安装客户端，连接到同一局域网启动就行（注意防火墙设置）</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[PTA 作业]]></title>
         <id>https://sundaydream.github.io//post/pta-zuo-ye</id>
@@ -267,15 +278,6 @@ int main()
 <h2 id="现状">现状</h2>
 <p><a href="http://www.playtv.com.cn/92.2.htm">卫星参数中星9号 92.2°E</a><br>
 <a href="http://www.playtv.com.cn/">中文寻星网</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TeamViewer安装与使用]]></title>
-        <id>https://sundaydream.github.io//post/teamviewer-an-zhuang-yu-shi-yong</id>
-        <link href="https://sundaydream.github.io//post/teamviewer-an-zhuang-yu-shi-yong">
-        </link>
-        <updated>2019-11-03T13:57:05.000Z</updated>
-        <content type="html"><![CDATA[<p>待补充...</p>
 ]]></content>
     </entry>
 </feed>
