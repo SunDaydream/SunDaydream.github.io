@@ -5,7 +5,7 @@
 <title>SunDaydream</title>
 <meta name="description" content="追求源于热爱
 Pursuit from Passion" />
-<link rel="shortcut icon" href="https://sundaydream.github.io//favicon.ico?v=1573997733646">
+<link rel="shortcut icon" href="https://sundaydream.github.io//favicon.ico?v=1574053132879">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link href="https://cdn.remixicon.com/releases/v1.3.1/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
@@ -25,7 +25,7 @@ Pursuit from Passion" />
       <div class="flex lg:block p-4 lg:px-0 items-center fixed lg:static lg:block top-0 right-0 left-0 bg-white z-50">
         <i class="remixicon-menu-2-line lg:mt-4 text-2xl cursor-pointer animated fadeIn" onclick="openMenu()"></i>
         <a href="https://sundaydream.github.io/">
-          <img class="animated fadeInLeft avatar rounded-lg mx-4 lg:mt-32 lg:mx-0 mt-0 lg:w-24 lg:h-24 w-12 w-12" src="https://sundaydream.github.io//images/avatar.png?v=1573997733646" alt="">
+          <img class="animated fadeInLeft avatar rounded-lg mx-4 lg:mt-32 lg:mx-0 mt-0 lg:w-24 lg:h-24 w-12 w-12" src="https://sundaydream.github.io//images/avatar.png?v=1574053132879" alt="">
         </a>
         <h1 class="animated fadeInLeft lg:text-4xl font-extrabold lg:mt-8 mt-0 text-xl" style="animation-delay: 0.2s">SunDaydream</h1>
       </div>
@@ -41,6 +41,7 @@ Pursuit from Passion" />
 <li><a href="#sy11-function01">SY11 function01</a>
 <ul>
 <li><a href="#6-8-%E4%BD%BF%E7%94%A8%E5%87%BD%E6%95%B0%E6%B1%82%E7%B4%A0%E6%95%B0%E5%92%8C">6-8 使用函数求素数和</a></li>
+<li><a href="#6-5-%E4%BD%BF%E7%94%A8%E5%87%BD%E6%95%B0%E8%BE%93%E5%87%BA%E4%B8%80%E4%B8%AA%E6%95%B4%E6%95%B0%E7%9A%84%E9%80%86%E5%BA%8F%E6%95%B0-20-%E5%88%86">6-5 使用函数输出一个整数的逆序数 (20 分)</a></li>
 </ul>
 </li>
 </ul>
@@ -93,7 +94,7 @@ Pursuit from Passion" />
       <div class="content-wrapper py-32 lg:p-8 lg:w-3/4 post-detail animated fadeIn">
         <h1 class="text-3xl font-bold lg:mt-16">PTA Function</h1>
         <div class="text-sm text-gray-700 lg:my-8">
-          2019-11-17 / 2 min read
+          2019-11-17 / 3 min read
         </div>
         
         <div class="post-content yue">
@@ -161,6 +162,52 @@ int PrimeSum(int m, int n)
 	return sum;
 }
 </code></pre>
+<h3 id="6-5-使用函数输出一个整数的逆序数-20-分">6-5 使用函数输出一个整数的逆序数 (20 分)</h3>
+<p>本题要求实现一个求整数的逆序数的简单函数。<br>
+<strong>函数接口定义：</strong><br>
+<code>int reverse( int number );</code><br>
+其中函数reverse须返回用户传入的整型number的逆序数。<br>
+<strong>裁判测试程序样例：</strong></p>
+<pre><code class="language-c">#include &lt;stdio.h&gt;
+
+int reverse( int number );
+
+int main()
+{
+    int n;
+
+    scanf(&quot;%d&quot;, &amp;n);
+    printf(&quot;%d\n&quot;, reverse(n));
+
+    return 0;
+}
+
+/* 你的代码将被嵌在这里 */
+</code></pre>
+<p><strong>输入样例：</strong><br>
+<code>-12340</code><br>
+<strong>输出样例：</strong><br>
+<code>-4321</code><br>
+<strong>答案：</strong></p>
+<pre><code class="language-c">int reverse(int number)
+{
+	int i = 1, a, sum = 0;
+
+	if (number &lt; 0) {
+		number = -number;
+		i = -1;
+	}
+
+	while (number) {
+		a = number % 10;
+		sum = sum * 10 + a;
+		number /= 10;
+	}
+	sum *= i;
+
+	return sum;
+}
+</code></pre>
 
         </div>
 
@@ -176,6 +223,15 @@ int PrimeSum(int m, int n)
 
 
         <div class="flex justify-between py-8">
+          
+            <div class="prev-post">
+              <a href="https://sundaydream.github.io//post/pta-zuo-ye">
+                <h3 class="post-title">
+                  <i class="remixicon-arrow-left-line"></i>
+                  PTA 作业
+                </h3>
+              </a>
+            </div>
           
 
           

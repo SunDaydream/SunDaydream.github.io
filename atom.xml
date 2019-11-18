@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sundaydream.github.io/</id>
     <title>SunDaydream</title>
-    <updated>2019-11-17T13:36:47.432Z</updated>
+    <updated>2019-11-18T04:59:01.690Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sundaydream.github.io/"/>
     <link rel="self" href="https://sundaydream.github.io//atom.xml"/>
@@ -11,6 +11,40 @@ Pursuit from Passion</subtitle>
     <logo>https://sundaydream.github.io//images/avatar.png</logo>
     <icon>https://sundaydream.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, SunDaydream</rights>
+    <entry>
+        <title type="html"><![CDATA[PTA 作业]]></title>
+        <id>https://sundaydream.github.io//post/pta-zuo-ye</id>
+        <link href="https://sundaydream.github.io//post/pta-zuo-ye">
+        </link>
+        <updated>2019-11-17T14:49:49.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="zy1-基础知识">zy1 基础知识</h2>
+<p>未整理<br>
+2-10<br>
+已知int i, a; 执行语句i=(a=2<em>3,a</em>5),a+6;后，变量i的值是（ ）。<br>
+6<br>
+12<br>
+30<br>
+36</p>
+<p>2-12<br>
+设x、y、t均为int型变量，则执行语句：x=y=3; t= ++x || ++y; 后，y的值为__。</p>
+<p>不定值<br>
+3<br>
+4<br>
+1</p>
+<p>2-13<br>
+逻辑运算符两侧运算对象的数据类型（ ）。</p>
+<p>只能是 0 或 1<br>
+只能是 0 或非 0 正数<br>
+只能是整型或字符型的数据<br>
+可以是任何类型的数据</p>
+<p>2-17<br>
+若有char w; int x; float y; double z; 则表达式w*x+z-y值的数据类型为（ ）。</p>
+<p>float<br>
+char<br>
+int<br>
+double</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[PTA Function]]></title>
         <id>https://sundaydream.github.io//post/pta-function</id>
@@ -78,6 +112,52 @@ int PrimeSum(int m, int n)
 		if (k == 1)
 			sum += i;
 	}
+	return sum;
+}
+</code></pre>
+<h3 id="6-5-使用函数输出一个整数的逆序数-20-分">6-5 使用函数输出一个整数的逆序数 (20 分)</h3>
+<p>本题要求实现一个求整数的逆序数的简单函数。<br>
+<strong>函数接口定义：</strong><br>
+<code>int reverse( int number );</code><br>
+其中函数reverse须返回用户传入的整型number的逆序数。<br>
+<strong>裁判测试程序样例：</strong></p>
+<pre><code class="language-c">#include &lt;stdio.h&gt;
+
+int reverse( int number );
+
+int main()
+{
+    int n;
+
+    scanf(&quot;%d&quot;, &amp;n);
+    printf(&quot;%d\n&quot;, reverse(n));
+
+    return 0;
+}
+
+/* 你的代码将被嵌在这里 */
+</code></pre>
+<p><strong>输入样例：</strong><br>
+<code>-12340</code><br>
+<strong>输出样例：</strong><br>
+<code>-4321</code><br>
+<strong>答案：</strong></p>
+<pre><code class="language-c">int reverse(int number)
+{
+	int i = 1, a, sum = 0;
+
+	if (number &lt; 0) {
+		number = -number;
+		i = -1;
+	}
+
+	while (number) {
+		a = number % 10;
+		sum = sum * 10 + a;
+		number /= 10;
+	}
+	sum *= i;
+
 	return sum;
 }
 </code></pre>
@@ -196,19 +276,6 @@ int PrimeSum(int m, int n)
         </link>
         <updated>2019-11-03T13:57:05.000Z</updated>
         <content type="html"><![CDATA[<p>待补充...</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[黑群晖安装与使用]]></title>
-        <id>https://sundaydream.github.io//post/hei-qun-hui-an-zhuang-yu-shi-yong</id>
-        <link href="https://sundaydream.github.io//post/hei-qun-hui-an-zhuang-yu-shi-yong">
-        </link>
-        <updated>2019-11-03T13:53:54.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p>文中所用设备为蜗牛星际B单网口款(J1900 4+16 6T紫盘)</p>
-</blockquote>
-<p>待补充...<br>
-P.S.终于有迅雷套件了，不过好像认SN，黑裙上会有奇怪的bug</p>
 ]]></content>
     </entry>
 </feed>
