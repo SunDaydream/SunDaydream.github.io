@@ -5,7 +5,7 @@
 <title>SunDaydream</title>
 <meta name="description" content="追求源于热爱
 Pursuit from Passion" />
-<link rel="shortcut icon" href="https://sundaydream.github.io//favicon.ico?v=1574053132879">
+<link rel="shortcut icon" href="https://sundaydream.github.io//favicon.ico?v=1574079619690">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link href="https://cdn.remixicon.com/releases/v1.3.1/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
@@ -25,7 +25,7 @@ Pursuit from Passion" />
       <div class="flex lg:block p-4 lg:px-0 items-center fixed lg:static lg:block top-0 right-0 left-0 bg-white z-50">
         <i class="remixicon-menu-2-line lg:mt-4 text-2xl cursor-pointer animated fadeIn" onclick="openMenu()"></i>
         <a href="https://sundaydream.github.io/">
-          <img class="animated fadeInLeft avatar rounded-lg mx-4 lg:mt-32 lg:mx-0 mt-0 lg:w-24 lg:h-24 w-12 w-12" src="https://sundaydream.github.io//images/avatar.png?v=1574053132879" alt="">
+          <img class="animated fadeInLeft avatar rounded-lg mx-4 lg:mt-32 lg:mx-0 mt-0 lg:w-24 lg:h-24 w-12 w-12" src="https://sundaydream.github.io//images/avatar.png?v=1574079619690" alt="">
         </a>
         <h1 class="animated fadeInLeft lg:text-4xl font-extrabold lg:mt-8 mt-0 text-xl" style="animation-delay: 0.2s">SunDaydream</h1>
       </div>
@@ -49,6 +49,11 @@ Pursuit from Passion" />
 <ul>
 <li><a href="#7-1-%E8%B7%9F%E5%A5%A5%E5%B7%B4%E9%A9%AC%E4%B8%80%E8%B5%B7%E7%94%BB%E6%96%B9%E5%9D%97">7-1 跟奥巴马一起画方块</a></li>
 <li><a href="#7-4-%E6%B0%B4%E4%BB%99%E8%8A%B1%E6%95%B0">7-4 水仙花数</a></li>
+</ul>
+</li>
+<li><a href="#sy10-%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%8404">SY10 循环结构04</a>
+<ul>
+<li><a href="#7-6-%E8%AE%A1%E7%AE%97%E5%9C%86%E5%91%A8%E7%8E%87">7-6 计算圆周率</a></li>
 </ul>
 </li>
 </ul>
@@ -101,7 +106,7 @@ Pursuit from Passion" />
       <div class="content-wrapper py-32 lg:p-8 lg:w-3/4 post-detail animated fadeIn">
         <h1 class="text-3xl font-bold lg:mt-16">PTA 循环结构 </h1>
         <div class="text-sm text-gray-700 lg:my-8">
-          2019-10-28 / 5 min read
+          2019-10-28 / 7 min read
         </div>
         
         <div class="post-content yue">
@@ -253,6 +258,112 @@ int main()
 				printf(&quot;%d\n&quot;,sum);
 	}
 	
+}
+</code></pre>
+<h2 id="sy10-循环结构04">SY10 循环结构04</h2>
+<h3 id="7-6-计算圆周率">7-6 计算圆周率</h3>
+<p>根据下面关系式，求圆周率的值，直到最后一项的值小于给定阈值。<br>
+​<code>π/2=1+1/3+2!/(3*5)+3!/(3*5*7)+⋯+n!/(3*5*7*⋯*(2n+1))+⋯</code><br>
+<strong>输入格式：</strong><br>
+输入在一行中给出小于1的阈值。<br>
+<strong>输出格式：</strong><br>
+在一行中输出满足阈值条件的近似圆周率，输出到小数点后6位。<br>
+<strong>输入样例：</strong><br>
+<code>0.01</code><br>
+<strong>输出样例：</strong><br>
+<code>3.132157</code><br>
+<strong>答案：</strong></p>
+<pre><code class="language-c">\\正确答案
+#include&lt;stdio.h&gt;
+int main()
+{
+    int i = 1;
+    double up=1.0f;
+    double down=1.0f;
+    double sum=1.0f;//右边式子第一项为1，在此直接处理
+    double n;
+    scanf(&quot;%lf&quot;,&amp;n);//输入阈值
+    do{
+        up*=i;//分子
+        down*=(2.0*i+1.0);//分母（奇数相乘，从1*3开始）
+        i++;
+        sum+=(up/down);//每一项的和累加
+
+    }while(up/down&gt;=n);//如果当前项小于阈值，退出循环
+    printf(&quot;%.6lf&quot;,2.0*sum);//最后不要忘记乘以2
+    return 0;
+}
+[参考]https://blog.csdn.net/qq_32999795/article/details/53861659
+
+\\不知道为啥错的答案1
+#include&lt;stdio.h&gt;
+double jiecheng(double n);
+int fenmu(int m);
+int main()
+{
+	double sum = 1 + 1.0 / 3, x;
+	scanf_s(&quot;%lf&quot;, &amp;x);
+	int i = 2;
+	while (jiecheng(i) / fenmu(i)&gt;= x)
+	{
+		sum += jiecheng(i) / fenmu(i);
+		i++;
+	}
+	sum += jiecheng(i) / fenmu(i);
+	printf(&quot;%lf&quot;, sum * 2.0);
+}
+double jiecheng(double n)
+{
+	double a = 1;
+	for (double i = 1; i &lt;= n; i++)
+		a *= i;
+	return a;
+}
+int fenmu(int m)
+{
+	int a = 3, b = 5;
+	for (int i = 1; i &lt;= m; i++)
+	{
+		a *= b;
+		b += 2;
+	}
+	return a;
+}
+
+\\不知道为啥错的答案2
+#include&lt;stdio.h&gt;
+double jiecheng(double n);
+int fenmu(int m);
+int main()
+{
+	double sum=1+1.0/3,x;
+	scanf(&quot;%lf&quot;,&amp;x);
+	while(1)
+	{
+		int i=2;
+		sum+=jiecheng(i)/fenmu(i);
+		if(jiecheng(i)/fenmu(i)&lt;x)
+			break;
+		i++;
+	}
+	printf(&quot;%lf&quot;,sum*2.0);
+}
+double jiecheng(double n)
+{
+	double a=1;
+	for(double i=1;i&lt;=n;i++)
+		a*=i;
+	return a;
+}
+int fenmu(int m)
+{
+	int a=3,b=5;
+	for(int i=1;i&lt;=m;i++)
+	{
+		a*=b;
+		b+=2;	
+	}
+	return a;
 }
 </code></pre>
 
