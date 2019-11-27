@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sundaydream.github.io/</id>
     <title>SunDaydream</title>
-    <updated>2019-11-21T06:03:30.811Z</updated>
+    <updated>2019-11-27T14:34:31.520Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sundaydream.github.io/"/>
     <link rel="self" href="https://sundaydream.github.io//atom.xml"/>
@@ -11,6 +11,24 @@ Pursuit from Passion</subtitle>
     <logo>https://sundaydream.github.io//images/avatar.png</logo>
     <icon>https://sundaydream.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, SunDaydream</rights>
+    <entry>
+        <title type="html"><![CDATA[眼前一亮的代码]]></title>
+        <id>https://sundaydream.github.io//post/yan-qian-yi-liang-de-dai-ma</id>
+        <link href="https://sundaydream.github.io//post/yan-qian-yi-liang-de-dai-ma">
+        </link>
+        <updated>2019-11-27T11:57:39.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="求最大公因数">求最大公因数</h2>
+<pre><code class="language-c">int gcd(int x, int y){return y ? gcd(y, x%y) : x;}
+</code></pre>
+<h2 id="不用临时变量交换两数值">不用临时变量交换两数值</h2>
+<pre><code class="language-c">a=a+b;
+b=a-b;
+a=a-b;
+</code></pre>
+<p>fork炸弹(shell脚本)<br>
+<code>:() { :|:&amp; };:</code></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[使用SpaceDesk实现屏幕拓展]]></title>
         <id>https://sundaydream.github.io//post/shi-yong-spacedesk-shi-xian-ping-mu-tuo-zhan</id>
@@ -258,25 +276,6 @@ int main()
         <updated>2019-11-03T14:11:08.000Z</updated>
         <content type="html"><![CDATA[<p>待补充...<br>
 <a href="http://www.playtv.com.cn/115.5.htm">卫星参数中星6B 115.5°E</a><br>
-<a href="http://www.playtv.com.cn/">中文寻星网</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[中星9号 Ku波]]></title>
-        <id>https://sundaydream.github.io//post/zhong-xing-9-hao-ku-bo</id>
-        <link href="https://sundaydream.github.io//post/zhong-xing-9-hao-ku-bo">
-        </link>
-        <updated>2019-11-03T13:57:58.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p>2017年2月16日凌晨0点00分30秒，中星九号左旋11880信号关闭，此卫星全部信号已加密，一个时代结束了。</p>
-</blockquote>
-<p>内容待补充（可能不会补充了，关于这个卫星只剩下童年的回忆）</p>
-<h2 id="寻星">寻星</h2>
-<h2 id="机顶盒软件烧录">机顶盒软件烧录</h2>
-<h2 id="频道搜索与参数调整">频道搜索与参数调整</h2>
-<h2 id="相关知识及高级玩法">相关知识及高级玩法</h2>
-<h2 id="现状">现状</h2>
-<p><a href="http://www.playtv.com.cn/92.2.htm">卫星参数中星9号 92.2°E</a><br>
 <a href="http://www.playtv.com.cn/">中文寻星网</a></p>
 ]]></content>
     </entry>
