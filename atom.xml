@@ -2,19 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sundaydream.github.io/</id>
     <title>SunDaydream</title>
-    <updated>2019-11-28T03:47:53.044Z</updated>
+    <updated>2020-11-27T13:32:33.556Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sundaydream.github.io/"/>
-    <link rel="self" href="https://sundaydream.github.io//atom.xml"/>
+    <link rel="self" href="https://sundaydream.github.io/atom.xml"/>
     <subtitle>追求源于热爱
 Pursuit from Passion</subtitle>
-    <logo>https://sundaydream.github.io//images/avatar.png</logo>
-    <icon>https://sundaydream.github.io//favicon.ico</icon>
-    <rights>All rights reserved 2019, SunDaydream</rights>
+    <logo>https://sundaydream.github.io/images/avatar.png</logo>
+    <icon>https://sundaydream.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2020, SunDaydream</rights>
+    <entry>
+        <title type="html"><![CDATA[test]]></title>
+        <id>https://sundaydream.github.io/post/test/</id>
+        <link href="https://sundaydream.github.io/post/test/">
+        </link>
+        <updated>2020-01-09T03:40:50.000Z</updated>
+        <content type="html"><![CDATA[<p>test</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[眼前一亮的代码]]></title>
-        <id>https://sundaydream.github.io//post/yan-qian-yi-liang-de-dai-ma</id>
-        <link href="https://sundaydream.github.io//post/yan-qian-yi-liang-de-dai-ma">
+        <id>https://sundaydream.github.io/post/yan-qian-yi-liang-de-dai-ma/</id>
+        <link href="https://sundaydream.github.io/post/yan-qian-yi-liang-de-dai-ma/">
         </link>
         <updated>2019-11-27T11:57:39.000Z</updated>
         <content type="html"><![CDATA[<h2 id="求最大公因数">求最大公因数</h2>
@@ -31,8 +40,8 @@ a=a-b;
     </entry>
     <entry>
         <title type="html"><![CDATA[使用SpaceDesk实现屏幕拓展]]></title>
-        <id>https://sundaydream.github.io//post/shi-yong-spacedesk-shi-xian-ping-mu-tuo-zhan</id>
-        <link href="https://sundaydream.github.io//post/shi-yong-spacedesk-shi-xian-ping-mu-tuo-zhan">
+        <id>https://sundaydream.github.io/post/shi-yong-spacedesk-shi-xian-ping-mu-tuo-zhan/</id>
+        <link href="https://sundaydream.github.io/post/shi-yong-spacedesk-shi-xian-ping-mu-tuo-zhan/">
         </link>
         <updated>2019-11-18T14:47:44.000Z</updated>
         <content type="html"><![CDATA[<p><a href="https://spacedesk.net/">官网</a><br>
@@ -42,8 +51,8 @@ a=a-b;
     </entry>
     <entry>
         <title type="html"><![CDATA[PTA 作业]]></title>
-        <id>https://sundaydream.github.io//post/pta-zuo-ye</id>
-        <link href="https://sundaydream.github.io//post/pta-zuo-ye">
+        <id>https://sundaydream.github.io/post/pta-zuo-ye/</id>
+        <link href="https://sundaydream.github.io/post/pta-zuo-ye/">
         </link>
         <updated>2019-11-17T14:49:49.000Z</updated>
         <content type="html"><![CDATA[<h2 id="zy1-基础知识">zy1 基础知识</h2>
@@ -76,8 +85,8 @@ double</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[PTA Function]]></title>
-        <id>https://sundaydream.github.io//post/pta-function</id>
-        <link href="https://sundaydream.github.io//post/pta-function">
+        <id>https://sundaydream.github.io/post/pta-function/</id>
+        <link href="https://sundaydream.github.io/post/pta-function/">
         </link>
         <updated>2019-11-17T13:19:56.000Z</updated>
         <content type="html"><![CDATA[<h2 id="sy11-function01">SY11 function01</h2>
@@ -194,8 +203,8 @@ int main()
     </entry>
     <entry>
         <title type="html"><![CDATA[KODI]]></title>
-        <id>https://sundaydream.github.io//post/kodi</id>
-        <link href="https://sundaydream.github.io//post/kodi">
+        <id>https://sundaydream.github.io/post/kodi/</id>
+        <link href="https://sundaydream.github.io/post/kodi/">
         </link>
         <updated>2019-11-07T13:34:30.000Z</updated>
         <content type="html"><![CDATA[<p>待补充</p>
@@ -203,8 +212,8 @@ int main()
     </entry>
     <entry>
         <title type="html"><![CDATA[开源协议对比]]></title>
-        <id>https://sundaydream.github.io//post/kai-yuan-xie-yi-dui-bi</id>
-        <link href="https://sundaydream.github.io//post/kai-yuan-xie-yi-dui-bi">
+        <id>https://sundaydream.github.io/post/kai-yuan-xie-yi-dui-bi/</id>
+        <link href="https://sundaydream.github.io/post/kai-yuan-xie-yi-dui-bi/">
         </link>
         <updated>2019-11-05T16:31:26.000Z</updated>
         <content type="html"><![CDATA[<p><a href="https://zhuanlan.zhihu.com/p/31881162">一张图看懂开源许可协议，开源许可证GPL、BSD、MIT、Mozilla、Apache和LGPL的区别</a><br>
@@ -213,8 +222,8 @@ int main()
     </entry>
     <entry>
         <title type="html"><![CDATA[C语言浮点数精度与四舍五入]]></title>
-        <id>https://sundaydream.github.io//post/c-jingduyusishewuru</id>
-        <link href="https://sundaydream.github.io//post/c-jingduyusishewuru">
+        <id>https://sundaydream.github.io/post/c-jingduyusishewuru/</id>
+        <link href="https://sundaydream.github.io/post/c-jingduyusishewuru/">
         </link>
         <updated>2019-11-04T05:07:42.000Z</updated>
         <content type="html"><![CDATA[<p>通过+-0.5实现四舍五入?<br>
@@ -230,8 +239,8 @@ int main()
     </entry>
     <entry>
         <title type="html"><![CDATA[优秀书籍]]></title>
-        <id>https://sundaydream.github.io//post/you-xiu-shu-ji</id>
-        <link href="https://sundaydream.github.io//post/you-xiu-shu-ji">
+        <id>https://sundaydream.github.io/post/you-xiu-shu-ji/</id>
+        <link href="https://sundaydream.github.io/post/you-xiu-shu-ji/">
         </link>
         <updated>2019-11-03T14:50:07.000Z</updated>
         <content type="html"><![CDATA[<h2 id="计算机与编程相关">计算机与编程相关</h2>
@@ -261,22 +270,11 @@ int main()
     </entry>
     <entry>
         <title type="html"><![CDATA[VMware Workstation Pro]]></title>
-        <id>https://sundaydream.github.io//post/vmware-workstation-pro</id>
-        <link href="https://sundaydream.github.io//post/vmware-workstation-pro">
+        <id>https://sundaydream.github.io/post/vmware-workstation-pro/</id>
+        <link href="https://sundaydream.github.io/post/vmware-workstation-pro/">
         </link>
         <updated>2019-11-03T14:11:51.000Z</updated>
         <content type="html"><![CDATA[<p>待补充...</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[中星6B C波]]></title>
-        <id>https://sundaydream.github.io//post/zhong-xing-6-hao-c-bo</id>
-        <link href="https://sundaydream.github.io//post/zhong-xing-6-hao-c-bo">
-        </link>
-        <updated>2019-11-03T14:11:08.000Z</updated>
-        <content type="html"><![CDATA[<p>待补充...<br>
-<a href="http://www.playtv.com.cn/115.5.htm">卫星参数中星6B 115.5°E</a><br>
-<a href="http://www.playtv.com.cn/">中文寻星网</a></p>
 ]]></content>
     </entry>
 </feed>
