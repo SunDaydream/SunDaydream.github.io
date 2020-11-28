@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sundaydream.github.io/</id>
     <title>SunDaydream</title>
-    <updated>2020-11-27T16:04:36.220Z</updated>
+    <updated>2020-11-28T16:09:37.428Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sundaydream.github.io/"/>
     <link rel="self" href="https://sundaydream.github.io/atom.xml"/>
@@ -11,6 +11,25 @@ Pursuit from Passion</subtitle>
     <logo>https://sundaydream.github.io/images/avatar.png</logo>
     <icon>https://sundaydream.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, SunDaydream</rights>
+    <entry>
+        <title type="html"><![CDATA[🌈 I'm Back]]></title>
+        <id>https://sundaydream.github.io/post/im-back/</id>
+        <link href="https://sundaydream.github.io/post/im-back/">
+        </link>
+        <updated>2020-11-28T16:01:43.000Z</updated>
+        <content type="html"><![CDATA[<p>时隔一年，准备重新启用博客</p>
+<p>近期可能更新：</p>
+<ul>
+<li>算法</li>
+<li>深入理解计算机系统</li>
+<li>Java</li>
+<li>Linux</li>
+<li>各种瞎折腾的教程</li>
+<li>数学相关</li>
+</ul>
+<p>随缘更新~~（这次应该不会不小心把token删掉了~~</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[眼前一亮的代码]]></title>
         <id>https://sundaydream.github.io/post/yan-qian-yi-liang-de-dai-ma/</id>
@@ -266,17 +285,6 @@ int main()
         </link>
         <updated>2019-11-03T14:11:51.000Z</updated>
         <content type="html"><![CDATA[<p>待补充...</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[中星6B C波]]></title>
-        <id>https://sundaydream.github.io/post/zhong-xing-6-hao-c-bo/</id>
-        <link href="https://sundaydream.github.io/post/zhong-xing-6-hao-c-bo/">
-        </link>
-        <updated>2019-11-03T14:11:08.000Z</updated>
-        <content type="html"><![CDATA[<p>待补充...<br>
-<a href="http://www.playtv.com.cn/115.5.htm">卫星参数中星6B 115.5°E</a><br>
-<a href="http://www.playtv.com.cn/">中文寻星网</a></p>
 ]]></content>
     </entry>
 </feed>
