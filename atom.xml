@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sundaydream.github.io/</id>
     <title>SunDaydream</title>
-    <updated>2020-11-28T17:29:27.523Z</updated>
+    <updated>2020-12-02T13:34:49.304Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sundaydream.github.io/"/>
     <link rel="self" href="https://sundaydream.github.io/atom.xml"/>
@@ -11,6 +11,18 @@ Pursuit from Passion</subtitle>
     <logo>https://sundaydream.github.io/images/avatar.png</logo>
     <icon>https://sundaydream.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, SunDaydream</rights>
+    <entry>
+        <title type="html"><![CDATA[IDEA汉化及激活]]></title>
+        <id>https://sundaydream.github.io/post/idea-han-hua-ji-ji-huo/</id>
+        <link href="https://sundaydream.github.io/post/idea-han-hua-ji-ji-huo/">
+        </link>
+        <updated>2020-12-02T13:33:04.000Z</updated>
+        <content type="html"><![CDATA[<p>从<a href="https://www.jetbrains.com/idea/">官网</a>下载安装后，安装Chinese(Simplified)插件和IDE Eval Reset插件即可实现汉化和激活（产品重置试用）。<br>
+<a href="https://zhile.io/2020/11/19/jetbrains-eval-reset.html">IDE Eval Reset插件教程</a><br>
+<img src="https://cdn.jsdelivr.net/gh/SunDaydream/ImageHosting/BlogImg/20201202213058.png" alt="image-20201202213058086" loading="lazy"></p>
+<figure data-type="image" tabindex="1"><img src="https://cdn.jsdelivr.net/gh/SunDaydream/ImageHosting/BlogImg/20201202213238.png" alt="image-20201202213237816" loading="lazy"></figure>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[🌈 I'm Back]]></title>
         <id>https://sundaydream.github.io/post/im-back/</id>
@@ -276,15 +288,6 @@ int main()
 <h4 id="数学之美-2">数学之美</h4>
 <h2 id="英语相关">英语相关</h2>
 <p>。。。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VMware Workstation Pro]]></title>
-        <id>https://sundaydream.github.io/post/vmware-workstation-pro/</id>
-        <link href="https://sundaydream.github.io/post/vmware-workstation-pro/">
-        </link>
-        <updated>2019-11-03T14:11:51.000Z</updated>
-        <content type="html"><![CDATA[<p>待补充...</p>
 ]]></content>
     </entry>
 </feed>
