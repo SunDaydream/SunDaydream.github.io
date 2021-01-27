@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sundaydream.github.io/</id>
     <title>SunDaydream</title>
-    <updated>2020-12-02T13:36:13.501Z</updated>
+    <updated>2021-01-27T09:26:57.744Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sundaydream.github.io/"/>
     <link rel="self" href="https://sundaydream.github.io/atom.xml"/>
@@ -10,7 +10,7 @@
 Pursuit from Passion</subtitle>
     <logo>https://sundaydream.github.io/images/avatar.png</logo>
     <icon>https://sundaydream.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, SunDaydream</rights>
+    <rights>All rights reserved 2021, SunDaydream</rights>
     <entry>
         <title type="html"><![CDATA[IntelliJ IDEA 汉化及激活]]></title>
         <id>https://sundaydream.github.io/post/idea-han-hua-ji-ji-huo/</id>
